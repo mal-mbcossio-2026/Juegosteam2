@@ -1,5 +1,9 @@
 let retos = [];
 let retoActual = null;
+let usuario = localStorage.getItem('usuario') || prompt("Introduce tu nombre:");
+if (!usuario) usuario = "Anonimo";
+localStorage.setItem('usuario', usuario);
+
 
 // Cargar retos
 fetch('data/retos.json')
@@ -34,6 +38,27 @@ function cargarReto() {
 
   // Elegir reto aleatorio
   retoActual = pendientes[Math.floor(Math.random() * pendientes.length)];
+  
+// Mostrar pantalla de código
+  document.getElementById('bloqueoReto').style.display = "block";
+  document.getElementById('zonaReto').style.display = "none";
+  document.getElementById('respuesta').style.display = "none";
+  document.querySelector('button[onclick="comprobarRespuesta()"]').style.display = "none";
+  document.getElementById('mensajeCodigoReto').textContent = "";
+  document.getElementById('codigoReto').value = "";
+}
+  // Verificar código del reto
+function verificarCodigoReto() {
+  let codigoIngresado = document.getElementById('codigoReto').value.trim();
+
+  if (codigoIngresado === retoActual.codigo) 
+  
+    // Desbloquear reto
+    document.getElementById('bloqueoReto').style.display = "none";
+    document.getElementById('zonaReto').style.display = "block";
+    document.getElementById('respuesta').style.display = "inline";
+    document.querySelector('button[onclick="comprobarRespuesta()"]').style.display = "inline";
+    
 
   // Mostrar reto
   document.getElementById('zonaReto').innerHTML = `
@@ -43,6 +68,9 @@ function cargarReto() {
     <p>${retoActual.descripcion}</p>
   `;
 }
+else {
+    document.getElementById('mensajeCodigoReto').textContent = "Código incorrecto. Inténtalo de nuevo.";
+  }
 
 // Comprobar la respuesta
 function comprobarRespuesta() {
@@ -72,3 +100,4 @@ function comprobarRespuesta() {
 }
 
  
+
