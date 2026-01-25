@@ -6,6 +6,25 @@
   <title>Reto STEAM</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+  <body>
+
+<div id="bloqueoReto">
+  <h2>Introduce el código para desbloquear el reto</h2>
+  <input type="text" id="codigoReto" placeholder="Código del reto">
+  <button onclick="verificarCodigoReto()">Enviar</button>
+  <p id="mensajeCodigoReto"></p>
+</div>
+
+<div id="zonaReto" style="display:none;"></div>
+
+<input type="text" id="respuesta" placeholder="Escribe tu respuesta" style="display:none;">
+<br><br>
+<button onclick="comprobarRespuesta()" style="display:none;">Comprobar</button>
+<p id="mensaje"></p>
+
+<script src="js/retos.js"></script>
+</body>
+
 <body>
   
 <script>
@@ -27,5 +46,6 @@
   <script src="js/retos.js"></script>
 </body>
 </html>
+
 
 
