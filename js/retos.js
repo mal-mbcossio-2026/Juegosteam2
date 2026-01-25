@@ -34,7 +34,7 @@ function comprobarRespuesta() {
     .toLowerCase()
     .trim();
 
-  if (respuesta === retoActual.solucion) {
+  if (respuesta === retoActual.solucion.toLowerCase()) {
     let hechos = JSON.parse(localStorage.getItem('retosHechos')) || [];
     hechos.push(retoActual.id);
     localStorage.setItem('retosHechos', JSON.stringify(hechos));
@@ -52,4 +52,5 @@ function comprobarRespuesta() {
       "Respuesta incorrecta. Inténtalo de nuevo.";
   }
 }
+
 
