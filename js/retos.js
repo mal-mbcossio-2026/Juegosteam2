@@ -21,12 +21,13 @@ function cargarReto() {
     document.getElementById('zonaReto').innerHTML =
       "<h2>¡Enhorabuena, " + usuario + "!</h2>" +
       "<p>Has completado todos los retos STEAM.</p>" +
-      "<p>Reiniciando el juego en 5 segundos...</p>";
+      "<p>Haz una captura de esta pantalla para ganar.</p>" +
+      "<p>Reiniciando el juego en 1 minuto...</p>";
 
     setTimeout(() => {
       localStorage.removeItem('retosHechos_' + usuario);
       cargarReto();
-    }, 5000);
+    }, 60000);
     return;
   }
 
@@ -86,3 +87,4 @@ function comprobarRespuesta() {
       "Respuesta incorrecta. Inténtalo de nuevo.";
   }
 }
+
