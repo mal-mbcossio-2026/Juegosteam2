@@ -71,40 +71,4 @@ function comprobarRespuesta() {
   }
 }
 
-  retoActual = pendientes[Math.floor(Math.random() * pendientes.length)];
-
-  document.getElementById('zonaReto').innerHTML = `
-    <h2>${retoActual.area}</h2>
-    <h3>${retoActual.titulo}</h3>
-    <img src="${retoActual.imagen}">
-    <p>${retoActual.descripcion}</p>
-  `;
-}
-
-function comprobarRespuesta() {
-  let respuesta = document.getElementById('respuesta').value
-    .toLowerCase()
-    .trim();
-
-  if (respuesta === retoActual.solucion.toLowerCase()) {
-    let hechos = JSON.parse(localStorage.getItem('retosHechos')) || [];
-    hechos.push(retoActual.id);
-    localStorage.setItem('retosHechos', JSON.stringify(hechos));
-
-    document.getElementById('mensaje').textContent =
-      "Reto superado. Ve al siguiente reto...";
-
-    setTimeout(() => {
-  document.getElementById('mensaje').textContent = "";
-  document.getElementById('respuesta').value = "";
-  cargarReto();
-}, 5000);
-  } else {
-    document.getElementById('mensaje').textContent =
-      "Respuesta incorrecta. Inténtalo de nuevo.";
-  }
-}
-
-
-
-
+ 
