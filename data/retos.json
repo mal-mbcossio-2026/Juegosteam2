@@ -22,7 +22,7 @@
     "descripcion": "¿Cómo se llama el cambio de sólido a líquido?",
     "imagen": "img/ciencia.png",
     "solucion": "fusión"
-  };
+  },
   {
     "id": 4,
     "area": "Ciencia",
@@ -32,6 +32,7 @@
     "solucion": "evaporación"
   }
 ]
+
 
 
 
