@@ -22,8 +22,17 @@
     "descripcion": "¿Cómo se llama el cambio de sólido a líquido?",
     "imagen": "img/ciencia.png",
     "solucion": "fusión"
+  };
+  {
+    "id": ,
+    "area": "Ciencia",
+    "titulo": "Estados de la materia",
+    "descripcion": "¿Cómo se llama el cambio de líquido a gas?",
+    "imagen": "img/ciencia.png",
+    "solucion": "evaporación"
   }
 ]
+
 
 
 
