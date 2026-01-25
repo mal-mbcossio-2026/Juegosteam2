@@ -1,16 +1,19 @@
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #eef2f5;
   padding: 20px;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 16px;
+h2, h3 {
+  margin: 10px 0;
 }
 
 img {
-  max-width: 250px;
-  margin: 10px;
+  max-width: 300px;
+  display: block;
+  margin: 10px 0;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px 0;
 }
