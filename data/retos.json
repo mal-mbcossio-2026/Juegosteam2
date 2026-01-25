@@ -11,7 +11,7 @@
     "id": 2,
     "area": "Programación",
     "titulo": "Pensamiento computacional",
-    "descripcion": "Escribe la palabra ORDENAR en mayúsculas.",
+    "descripcion": "Escribe la palabra ordenar en mayúsculas.",
     "imagen": "img/programacion.png",
     "solucion": "ORDENAR"
   },
@@ -24,3 +24,4 @@
     "solucion": "fusión"
   }
 ]
+
