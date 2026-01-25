@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "area": "Matemáticas",
+    "titulo": "El número secreto",
+    "descripcion": "¿Cuánto vale x si 2x + 6 = 14?",
+    "imagen": "img/mates.png",
+    "solucion": "4"
+  },
+  {
+    "id": 2,
+    "area": "Programación",
+    "titulo": "Pensamiento computacional",
+    "descripcion": "Escribe la palabra ORDENAR en mayúsculas.",
+    "imagen": "img/programacion.png",
+    "solucion": "ORDENAR"
+  },
+  {
+    "id": 3,
+    "area": "Ciencia",
+    "titulo": "Estados de la materia",
+    "descripcion": "¿Cómo se llama el cambio de sólido a líquido?",
+    "imagen": "img/ciencia.png",
+    "solucion": "fusión"
+  }
+]

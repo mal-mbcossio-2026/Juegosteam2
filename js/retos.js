@@ -1,0 +1,50 @@
+let retos = [];
+let retoActual = null;
+
+fetch('data/retos.json')
+  .then(respuesta => respuesta.json())
+  .then(datos => {
+    retos = datos;
+    cargarReto();
+  });
+
+function cargarReto() {
+  let hechos = JSON.parse(localStorage.getItem('retosHechos')) || [];
+
+  let pendientes = retos.filter(r => !hechos.includes(r.id));
+
+  if (pendientes.length === 0) {
+    document.getElementById('zonaReto').innerHTML =
+      "<h2>¡Enhorabuena!</h2><p>Has completado todos los retos STEAM.</p>";
+    return;
+  }
+
+  retoActual = pendientes[Math.floor(Math.random() * pendientes.length)];
+
+  document.getElementById('zonaReto').innerHTML = `
+    <h2>${retoActual.area}</h2>
+    <h3>${retoActual.titulo}</h3>
+    <img src="${retoActual.imagen}">
+    <p>${retoActual.descripcion}</p>
+  `;
+}
+
+function comprobarRespuesta() {
+  let respuesta = document.getElementById('respuesta').value
+    .toLowerCase()
+    .trim();
+
+  if (respuesta === retoActual.solucion) {
+    let hechos = JSON.parse(localStorage.getItem('retosHechos')) || [];
+    hechos.push(retoActual.id);
+    localStorage.setItem('retosHechos', JSON.stringify(hechos));
+
+    document.getElementById('mensaje').textContent =
+      "Reto superado. Cargando nuevo reto...";
+
+    setTimeout(() => location.reload(), 1500);
+  } else {
+    document.getElementById('mensaje').textContent =
+      "Respuesta incorrecta. Inténtalo de nuevo.";
+  }
+}
