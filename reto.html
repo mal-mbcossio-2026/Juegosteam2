@@ -1,3 +1,5 @@
+let usuario = prompt("Introduce tu nombre:");
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,7 +8,14 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+  
+<script>
+  // Pedir nombre de usuario al iniciar
+  let usuario = localStorage.getItem('usuario') || prompt("Introduce tu nombre:");
+  if (!usuario) usuario = "Anonimo";
+  localStorage.setItem('usuario', usuario);
+</script>
+  
   <div id="zonaReto"></div>
 
   <input type="text" id="respuesta" placeholder="Escribe tu respuesta">
@@ -19,3 +28,4 @@
   <script src="js/retos.js"></script>
 </body>
 </html>
+
