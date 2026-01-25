@@ -13,11 +13,20 @@ function cargarReto() {
 
   let pendientes = retos.filter(r => !hechos.includes(r.id));
 
-  if (pendientes.length === 0) {
-    document.getElementById('zonaReto').innerHTML =
-      "<h2>¡Enhorabuena!</h2><p>Has completado todos los retos STEAM.</p>";
-    return;
-  }
+ if (pendientes.length === 0) {
+  document.getElementById('zonaReto').innerHTML =
+    "<h2>¡Enhorabuena!</h2><p>Has completado todos los retos STEAM.</p>" +
+    "<p>Reiniciando el juego en 5 segundos...</p>";
+
+  // Espera 5 segundos antes de reiniciar
+  setTimeout(() => {
+    localStorage.removeItem('retosHechos'); // borra el historial
+    cargarReto(); // empieza de nuevo
+  }, 5000);
+
+  return;
+}
+
 
   retoActual = pendientes[Math.floor(Math.random() * pendientes.length)];
 
@@ -52,5 +61,6 @@ function comprobarRespuesta() {
       "Respuesta incorrecta. Inténtalo de nuevo.";
   }
 }
+
 
 
