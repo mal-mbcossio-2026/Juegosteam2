@@ -6,6 +6,7 @@
     "descripcion": "¿Cuánto vale x si 2x + 6 = 14?",
     "imagen": "img/mates.png",
     "solucion": "4"
+    "codigo": "331"
   },
   {
     "id": 2,
@@ -14,6 +15,7 @@
     "descripcion": "Qué imagen tiene el bloque de Scratch que inicia todo el programa.",
     "imagen": "img/programacion.png",
     "solucion": "Una bandera verde"
+     "codigo": "446"
   },
   {
     "id": 3,
@@ -22,6 +24,7 @@
     "descripcion": "¿Cómo se llama el cambio de sólido a líquido?",
     "imagen": "img/ciencia.png",
     "solucion": "fusión"
+     "codigo": "695"
   },
   {
     "id": 4,
@@ -30,8 +33,10 @@
     "descripcion": "¿Cómo se llama el cambio de líquido a gas?",
     "imagen": "img/ciencia.png",
     "solucion": "evaporación"
+     "codigo": "725"
   }
 ]
+
 
 
 
