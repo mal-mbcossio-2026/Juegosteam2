@@ -40,11 +40,16 @@ function comprobarRespuesta() {
     localStorage.setItem('retosHechos', JSON.stringify(hechos));
 
     document.getElementById('mensaje').textContent =
-      "Reto superado. Cargando nuevo reto...";
+      "Reto superado. Ve al siguiente reto...";
 
-    setTimeout(() => location.reload(), 1500);
+    setTimeout(() => {
+  document.getElementById('mensaje').textContent = "";
+  document.getElementById('respuesta').value = "";
+  cargarReto();
+}, 5000);
   } else {
     document.getElementById('mensaje').textContent =
       "Respuesta incorrecta. Inténtalo de nuevo.";
   }
 }
+
