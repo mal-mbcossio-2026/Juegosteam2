@@ -100,6 +100,9 @@ function verificarCodigoReto() {
       <img src="${retoActual.imagen}">
       ${retoActual.descripcion}
     `;
+if (window.MathJax) {
+  MathJax.typeset();
+}
 
   } else {
     document.getElementById('mensajeCodigoReto').textContent =
@@ -141,6 +144,7 @@ function comprobarRespuesta() {
       "Respuesta incorrecta. Inténtalo de nuevo.";
   }
 }
+
 
 
 
