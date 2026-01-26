@@ -98,7 +98,7 @@ function verificarCodigoReto() {
       <h2>Reto ${retoActual.id} · ${retoActual.area}</h2>
       <h3>${retoActual.titulo}</h3>
       <img src="${retoActual.imagen}">
-      <p>${retoActual.descripcion}</p>
+      ${retoActual.descripcion}
     `;
 
   } else {
@@ -141,5 +141,6 @@ function comprobarRespuesta() {
       "Respuesta incorrecta. Inténtalo de nuevo.";
   }
 }
+
 
 
