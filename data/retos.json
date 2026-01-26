@@ -3,7 +3,37 @@
     "id": 1,
     "area": "CORTAFUEGOS NIVEL 1",
     "titulo": "El Algoritmo de Acceso",
-    "descripcion": "MENSAJE DEL SISTEMA:¡Bien hecho, equipo! Habéis superado el primer filtro de seguridad física. Pero entrar al servidor no será tan fácil. El virus ha encriptado la puerta de enlace y solo los que dominan la lógica del sistema pueden generar la llave maestra",
+   "descripcion": "
+<p><strong>Para obtener el Código de Desbloqueo</strong>, debéis resolver la siguiente secuencia lógica que el virus intentó corromper.</p>
+
+<p>En el panel de control aparecen tres nodos con valores conocidos y un cuarto nodo bloqueado:</p>
+
+<ol>
+  <li>Nodo Alpha: $15 + 5 \\times 2 = 25$</li>
+  <li>Nodo Beta: $8^2 - 10 = 54$</li>
+  <li>Nodo Gamma: $\\sqrt{144} \\times 3 = 36$</li>
+</ol>
+
+<p><strong>Vuestra misión:</strong></p>
+
+<p>
+Calculad el valor del <strong>Nodo Delta</strong>.  
+El código final es el resultado de la siguiente operación:
+</p>
+
+$$
+(Nodo\\ Alpha + Nodo\\ Gamma) \\div (Nodo\\ Beta - 51)
+$$
+
+<hr>
+
+<p><strong>⚠️ Instrucciones de Seguridad</strong></p>
+
+<ul>
+  <li>Prioridad de operaciones: el sistema sigue la jerarquía matemática estricta.</li>
+  <li>El código es un <strong>número entero</strong>.</li>
+</ul>
+"
     "imagen": "img/mates.png",
     "solucion": "4",
     "codigo": "123"
@@ -27,6 +57,7 @@
     "codigo": "789"
   }
 ]
+
 
 
 
