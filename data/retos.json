@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 2,
     "area": "CORTAFUEGOS NIVEL 1",
     "titulo": "El Algoritmo de Acceso",
    "descripcion": "descripcion": "<p><strong>Para obtener el Código de Desbloqueo</strong>, debéis resolver la siguiente secuencia lógica que el virus intentó corromper.</p>\n<p>En el panel de control aparecen tres nodos con valores conocidos y un cuarto nodo bloqueado:</p>\n<ol>\n<li><strong>Nodo Alpha:</strong> $15 + 5 \\times 2 = 25$</li>\n<li><strong>Nodo Beta:</strong> $8^2 - 10 = 54$</li>\n<li><strong>Nodo Gamma:</strong> $\\sqrt{144} \\times 3 = 36$</li>\n</ol>\n<p><strong>Vuestra misión:</strong></p>\n<p>Calculad el valor del <strong>Nodo Delta</strong>. El código final es el resultado de la siguiente operación:</p>\n<p>$$ (Nodo\\ Alpha + Nodo\\ Gamma) \\div (Nodo\\ Beta - 51) $$</p>\n<hr>\n<p><strong>⚠️ Instrucciones de Seguridad</strong></p>\n<ul>\n<li>Respetad la prioridad de operaciones matemáticas.</li>\n<li>El resultado es un número entero.</li>\n<li>Introducidlo correctamente para desbloquear el siguiente reto.</li>\n</ul>"
@@ -10,7 +10,7 @@
     "codigo": "123"
   },
   {
-    "id": 2,
+    "id": 1,
     "area": "Programación",
     "titulo": "Pensamiento computacional",
     "descripcion": "Qué imagen tiene el bloque de Scratch que inicia todo el programa.",
@@ -28,6 +28,7 @@
     "codigo": "789"
   }
 ]
+
 
 
 
