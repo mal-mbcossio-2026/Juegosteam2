@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "area": "Matemáticas",
-    "titulo": "El número secreto",
-    "descripcion": "¿Cuánto vale x si 2x + 6 = 14?",
+    "area": "CORTAFUEGOS NIVEL 1",
+    "titulo": "El Algoritmo de Acceso",
+    "descripcion": "MENSAJE DEL SISTEMA:¡Bien hecho, equipo! Habéis superado el primer filtro de seguridad física. Pero entrar al servidor no será tan fácil. El virus ha encriptado la puerta de enlace y solo los que dominan la lógica del sistema pueden generar la llave maestra",
     "imagen": "img/mates.png",
     "solucion": "4",
     "codigo": "123"
@@ -27,6 +27,7 @@
     "codigo": "789"
   }
 ]
+
 
 
 
