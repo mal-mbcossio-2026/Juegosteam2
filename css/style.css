@@ -12,7 +12,7 @@ h2, h3 {
 img {
   max-width: 600px;
   display: block;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 input, button {
@@ -25,6 +25,7 @@ input, button {
   display: block;
   margin: 50px auto;
 }
+
 
 
 
