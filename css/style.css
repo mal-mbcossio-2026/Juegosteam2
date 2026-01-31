@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   padding: 40px;
-  text-align: center;
+  text-align: left;
   background-color: #f4f4f4;
 }
 
 h2, h3 {
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 img {
@@ -25,6 +25,7 @@ input, button {
   display: block;
   margin: 50px auto;
 }
+
 
 
 
