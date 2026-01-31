@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   padding: 40px;
+  text-align: center;
+  background-color: #f4f4f4;
 }
 
 h2, h3 {
@@ -17,4 +19,11 @@ input, button {
   padding: 16px;
   margin: 10px 0;
 }
+.imagen-Algoritmo_acceso {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
 
