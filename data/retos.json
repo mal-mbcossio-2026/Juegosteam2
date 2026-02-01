@@ -25,7 +25,7 @@
     "imagen": "img/ciencia.png",
     "solucion": "fusión2",
     "codigo": "406"
-  }
+  },
    {
     "id": 4,
     "area": "Ciencia",
@@ -36,6 +36,7 @@
     "codigo": "285"
   }
 ]
+
 
 
 
