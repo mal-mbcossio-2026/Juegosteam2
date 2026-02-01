@@ -10,8 +10,8 @@
   },
   {
     "id": 2,
-    "area": "Programación",
-    "titulo": "Pensamiento computacional",
+    "area": "CORTAFUEGOS NIVEL 2",
+    "titulo": "El Sector Corrupto",
     "descripcion": "Qué imagen tiene el bloque de Scratch que inicia todo el programa.",
     "imagen": "img/programacion.png",
     "solucion": "Una bandera verde",
@@ -27,6 +27,7 @@
     "codigo": "789"
   }
 ]
+
 
 
 
