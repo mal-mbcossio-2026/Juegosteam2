@@ -15,7 +15,7 @@
     "descripcion": "Qué imagen tiene el bloque de Scratch que inicia todo el programa.",
     "imagen": "img/programacion.png",
     "solucion": "Una bandera verde",
-    "codigo": "456"
+    "codigo": "861"
   },
   {
     "id": 3,
@@ -24,9 +24,19 @@
     "descripcion": "¿Cómo se llama el cambio de sólido a líquido?",
     "imagen": "img/ciencia.png",
     "solucion": "fusión",
-    "codigo": "789"
+    "codigo": "198"
+  }
+   {
+    "id": 4,
+    "area": "Ciencia",
+    "titulo": "Estados de la materia",
+    "descripcion": "¿Cómo se llama el cambio de sólido a líquido?",
+    "imagen": "img/ciencia.png",
+    "solucion": "fusión",
+    "codigo": "705"
   }
 ]
+
 
 
 
