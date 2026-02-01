@@ -13,7 +13,7 @@
     "area": "CORTAFUEGOS NIVEL 2",
     "titulo": "<p>El Sector Corrupto</p>\n<p>¡Acceso concedido! Pero tenemos un problema grave: el virus está ejecutando un script de borrado masivo.</p>\n<p>Para detenerlo, debéis identificar el sector exacto de la memoria donde se esconde el código malicioso. El tiempo corre...</p>",
     "descripcion": "Introduce el código de acceso obtenido.",
-    "imagen": "img/Sector_corrupto2.png",
+    "imagen": "img/sector_corrupto.png",
     "solucion": "861",
     "codigo": "571"
   },
@@ -36,6 +36,7 @@
     "codigo": "285"
   }
 ]
+
 
 
 
