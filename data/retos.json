@@ -3,7 +3,7 @@
     "id": 1,
     "area": "CORTAFUEGOS NIVEL 1",
     "titulo": "El Algoritmo de Acceso",
-    "descripcion": "<p><strong>Para obtener el Código de Desbloqueo</strong>, debéis resolver la siguiente secuencia lógica que el virus intentó corromper.</p>\n<p>En el panel de control aparecen tres nodos con valores conocidos y un cuarto nodo bloqueado:</p>\n<ol>\n<li><strong>Nodo Alpha:</strong> $$410 + 4 \\div 2 = 412$$</li>\n<li><strong>Nodo Beta:</strong> $$8^2 - 10 = 54$$</li>\n<li><strong>Nodo Gamma:</strong> $$\\sqrt{501264} \\div 3 = 236$$</li>\n</ol>\n<p><strong>Vuestra misión:</strong></p>\n<p>Calculad el valor del <strong>Nodo Delta</strong>. El código final es el resultado de la siguiente operación:</p>\n<p>$$ (Nodo\\ Alpha + Nodo\\ Gamma) \\div (Nodo\\ Beta - 52) $$</p>\n<p><strong>El resultado del código se usará para acceder a la siguiente prueba en la web principal</strong>.</p>\n<hr>\n<p><strong>⚠️ Instrucciones de Seguridad</strong></p>\n<ul>\n<li>Respetad la prioridad de operaciones matemáticas.</li>\n<li>El resultado es un número entero.</li>\n<li>Para acceder ahora correctamente al siguiente reto, introducir la contraseña recogida en la web principal.</li>\n</ul>",
+    "descripcion": "<p><strong>Para obtener el Código de Desbloqueo</strong>, debéis resolver la siguiente secuencia lógica que el virus intentó corromper.</p>\n<p>En el panel de control aparecen tres nodos con valores conocidos y un cuarto nodo bloqueado:</p>\n<ol>\n<li><strong>Nodo Alpha:</strong> $$410 + 4 \\div 2 = 412$$</li>\n<li><strong>Nodo Beta:</strong> $$8^2 - 10 = 54$$</li>\n<li><strong>Nodo Gamma:</strong> $$\\sqrt{501264} \\div 3 = 236$$</li>\n</ol>\n<p><strong>Vuestra misión:</strong></p>\n<p>Calculad el valor del <strong>Nodo Delta</strong>. El código final es el resultado de la siguiente operación:</p>\n<p>$$ (Nodo\\ Alpha + Nodo\\ Gamma) \\div (Nodo\\ Beta - 52) $$</p>\n<p><strong>El resultado de esta operación se usará para acceder a la siguiente prueba en la web principal</strong>.</p>\n<hr>\n<p><strong>⚠️ Instrucciones de Seguridad</strong></p>\n<ul>\n<li>Respetad la prioridad de operaciones matemáticas.</li>\n<li>El resultado es un número entero.</li>\n<li>Para acceder ahora correctamente al siguiente reto, introducir la contraseña recogida en la web principal.</li>\n</ul>",
     "imagen": "img/mates.png",
     "solucion": "4",
     "codigo": "893"
@@ -27,6 +27,7 @@
     "codigo": "789"
   }
 ]
+
 
 
 
