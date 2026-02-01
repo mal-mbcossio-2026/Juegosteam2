@@ -19,11 +19,11 @@
   },
   {
     "id": 3,
-    "area": "Ciencia2",
-    "titulo": "Estados de la materia2",
+    "area": "CORTAFUEGOS NIVEL 3",
+    "titulo": "<p>El Perímetro de Seguridad</p>\n<p>¡Increíble! Habéis frenado el borrado de datos. Pero ahora el virus ha bloqueado los planos de las cámaras de seguridad.</p>\n<p>El mapa del hall se ha fragmentado en formas geométricas. Para reactivar la vigilancia, necesitamos que calculéis el área de la Zona Cero</p>",
     "descripcion": "¿Cómo se llama el cambio de sólido a líquido2?",
-    "imagen": "img/ciencia.png",
-    "solucion": "fusión2",
+    "imagen": "img/area_critica.png",
+    "solucion": "198",
     "codigo": "406"
   },
    {
@@ -36,6 +36,7 @@
     "codigo": "285"
   }
 ]
+
 
 
 
