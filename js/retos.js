@@ -43,14 +43,14 @@ function cargarReto() {
     document.getElementById('zonaReto').style.display = "block";
     document.getElementById('zonaReto').innerHTML = `
       <h2>¡Enhorabuena, ${usuario}!</h2>
-      <p>Has completado todos los retos STEAM.</p>
-      <p>El juego se reiniciará en 5 segundos...</p>
+      <p>🏆 ¡VIRUS ELIMINADO! La conexión a la red se ha restablecido con éxito.<p>\n<\p> Habéis demostrado ser un equipo de élite.<p>\n<\p>Dirigíos ahora al profesor para reclamar vuestro Comodín de Resurrección.<p>\n<\p>¡MISIÓN CUMPLIDA!<\p>
+      <p>El juego se reiniciará en 25 segundos...</p>
     `;
 
     setTimeout(() => {
       localStorage.removeItem('retosHechos_' + usuario);
       cargarReto();
-    }, 5000);
+    }, 25000);
 
     return;
   }
@@ -144,6 +144,7 @@ function comprobarRespuesta() {
       "Respuesta incorrecta. Inténtalo de nuevo.";
   }
 }
+
 
 
 
