@@ -21,21 +21,22 @@
     "id": 3,
     "area": "CORTAFUEGOS NIVEL 3",
     "titulo": "<p>El Perímetro de Seguridad</p>\n<p>¡Increíble! Habéis frenado el borrado de datos. Pero ahora el virus ha bloqueado los planos de las cámaras de seguridad.</p>\n<p>El mapa del hall se ha fragmentado en formas geométricas. Para reactivar la vigilancia, necesitamos que calculéis el área de la Zona Cero</p>",
-    "descripcion": "¿Cómo se llama el cambio de sólido a líquido2?",
+    "descripcion": "¿Introduce el código de acceso obtenido.?",
     "imagen": "img/area_critica.png",
     "solucion": "198",
     "codigo": "406"
   },
    {
     "id": 4,
-    "area": "Ciencia",
-    "titulo": "Estados de la materia",
-    "descripcion": "¿Cómo se llama el cambio de sólido a líquido?",
+    "area": "<p>CORTAFUEGOS FINAL</p>\n<p>¡ATENCIÓN! El virus ha activado su última línea de defensa: un bucle infinito que colapsará la red del instituto en 5 minutos.</p>\n<p>Solo una secuencia de cuatro dígitos puede resetear el núcleo. Los datos están fragmentados en los informes de errores del sistema.</p>",
+    "titulo": "El Núcleo del Sistema",
+    "descripcion": "¿Introduce el código de acceso obtenido.?",
     "imagen": "img/ciencia.png",
-    "solucion": "fusión",
+    "solucion": "705",
     "codigo": "285"
   }
 ]
+
 
 
 
